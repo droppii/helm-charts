@@ -3,7 +3,24 @@ entries:
   promotion-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-10T06:38:57.460254677Z"
+    created: "2024-03-10T06:43:36.83736716Z"
+    description: A Helm chart for promotion service
+    digest: 8b09e216423ad0622431cb97279f0463933f23cd446053c532c2dbc7a32f24da
+    keywords:
+    - backend
+    - promotion
+    - java
+    - spring-boot
+    maintainers:
+    - name: Long Nhat
+    name: promotion-service
+    type: application
+    urls:
+    - promotion-service/promotion-service-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-03-10T06:43:36.836264228Z"
     description: A Helm chart for promotion service
     digest: 2161e5c6c6311fc0b2da9c08696cf708a6a8517de38dd077ad839f2c97421a43
     keywords:
@@ -18,4 +35,4 @@ entries:
     urls:
     - promotion-service/promotion-service-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-10T06:38:57.459722963Z"
+generated: "2024-03-10T06:43:36.835724728Z"

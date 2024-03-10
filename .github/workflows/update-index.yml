@@ -1,0 +1,26 @@
+name: Update index
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '**.tgz'
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+      - name: Helm installation
+        uses: azure/setup-helm@v1.1
+        with:
+          version: v3.7.0
+      - name: Update index
+        run: |
+          helm repo index .
+          git config --global user.email "bot@droppii.com"
+          git config --global user.name "Droppii Bot"
+          git add index.yaml
+          git commit -m "Update chart index"
+          git push

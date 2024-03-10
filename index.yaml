@@ -3,9 +3,9 @@ entries:
   promotion-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-10T06:26:48.493929282Z"
+    created: "2024-03-10T06:35:14.952794755Z"
     description: A Helm chart for promotion service
-    digest: 6cace13e380f8829f0e0f7644c189b6b52840b020ca62bd4362c0cc8bd1b53f5
+    digest: fd132d25030330f925a30fc9b43215bf92f6fba1604703f54de634c68e83e9a1
     keywords:
     - backend
     - promotion
@@ -18,4 +18,4 @@ entries:
     urls:
     - promotion-service/promotion-service-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-10T06:26:48.493443966Z"
+generated: "2024-03-10T06:35:14.952272159Z"
